@@ -15,7 +15,7 @@
   &__nav-home {
     width: 230px;
     align-self: center;
-    cursor:  progress;
+    cursor:  pointer;
     margin-left: 20px;
   }
   
@@ -75,6 +75,7 @@
       display: none;
       
       &:hover {
+        color: red;
         .main-header__nav-dropdown {
           display: flex;
         }
