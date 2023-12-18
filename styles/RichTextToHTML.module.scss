@@ -33,12 +33,12 @@
 
   &__highlighted-text {
     font-weight: 800;
-    color:$color-blue-normal;
+    color:$color-red-normal;
   }
   
   &__link {
     word-wrap: break-word;
-    color: $color-blue-normal;
+    color: $color-red-normal;
     
     > i {
       padding: 5px 15px 4px;
