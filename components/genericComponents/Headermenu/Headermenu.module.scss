@@ -15,7 +15,7 @@
   &__nav-home {
     width: 230px;
     align-self: center;
-    cursor: pointer;
+    cursor:  progress;
     margin-left: 20px;
   }
   
@@ -58,7 +58,7 @@
 
     > a:hover, Link:hover {
       cursor: pointer;
-      color: $color-red-normal;
+      color: $color-blue-normal;
     }
     
     &--menu {
