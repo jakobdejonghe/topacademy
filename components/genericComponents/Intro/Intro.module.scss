@@ -2,7 +2,7 @@
 
 
 .intro {
-  margin: 40px 20px 50px;
+  margin: 30px 20px 40px;
 
   &--with-navigator {
     @extend .intro;
@@ -54,7 +54,7 @@
 
 @media only screen and (min-width: 1400px) {
   .intro {
-    width: 850px;
+    width: 900px;
 
     &--with-navigator {
       width: auto;
@@ -66,7 +66,7 @@
 
 @media only screen and (min-width: 1600px) {
   .intro {
-    width: 900px;
+    width: 1000px;
 
     &--with-navigator {
       width: auto;
