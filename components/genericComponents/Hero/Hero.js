@@ -27,7 +27,7 @@ export default function Hero({ blok }) {
 					</div>
 					{showImage &&
 						<figure className={css["hero__image-responsive-wrapper"]}>
-							{getDefaultStoryBlokImageSet(blok.image.filename, blok.image.alt, { largestImageWidth: 870, largestImageHeigth: 870 }, 850, css["hero__image"])}
+							{getDefaultStoryBlokImageSet(blok.image.filename, blok.image.alt, css["hero__image"])}
 						</figure>
 					}
 
