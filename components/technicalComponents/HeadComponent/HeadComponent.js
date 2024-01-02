@@ -52,7 +52,6 @@ export default class HeadComponent extends Component {
 			<Head>
 				<link rel="preconnect" href="https://fonts.googleapis.com" />
 				<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link href="https://fonts.googleapis.com/css2?family=Kalnia:wght@400;700&display=swap" rel="stylesheet">
 				<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
 				<meta lang="en" />
 				<link rel="icon" href="/images/logo/favicon@32x.png" />
@@ -61,7 +60,7 @@ export default class HeadComponent extends Component {
 				<link rel="dns-prefetch" href="https://cdn.materialdesignicons.com" />
 				{this.props.socialTags && Object.entries(this.props.socialTags).map(getTagElement)}
 				{this.state.loaded && <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@3.9.97/css/materialdesignicons.min.css" />}
-				{this.state.loaded && <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Silkscreen:wght@400;700&display=swap" rel="stylesheet" />}
+				{this.state.loaded && <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Kalnia:wght@400;700&display=swap" rel="stylesheet" />}
 			</Head>
 			<Script id="tawktoscriptwrapper" dangerouslySetInnerHTML={{
 				__html: `var Tawk_API=Tawk_API||{ }, Tawk_LoadStart=new Date();
